@@ -1,0 +1,5 @@
+C:\Users\Admin-PC\source\repos\CMP170_Excercise\ex3\ex3\obj\Debug\net5.0\ex3.csproj.AssemblyReference.cache
+C:\Users\Admin-PC\source\repos\CMP170_Excercise\ex3\ex3\obj\Debug\net5.0\ex3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin-PC\source\repos\CMP170_Excercise\ex3\ex3\obj\Debug\net5.0\ex3.AssemblyInfoInputs.cache
+C:\Users\Admin-PC\source\repos\CMP170_Excercise\ex3\ex3\obj\Debug\net5.0\ex3.AssemblyInfo.cs
+C:\Users\Admin-PC\source\repos\CMP170_Excercise\ex3\ex3\obj\Debug\net5.0\ex3.csproj.CoreCompileInputs.cache
