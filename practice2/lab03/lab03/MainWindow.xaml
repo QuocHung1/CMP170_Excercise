@@ -1,0 +1,40 @@
+﻿<Window x:Class="lab03.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab03"
+        mc:Ignorable="d"
+        Title="Calculator" Height="483" Width="1054">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.15*"></ColumnDefinition>
+            <ColumnDefinition Width="0.15*"></ColumnDefinition>
+            <ColumnDefinition Width="0.15*"></ColumnDefinition>
+            <ColumnDefinition Width="0.15*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Calculator" FontSize="30" Foreground="Red" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4"></Label>
+        <Label Content="History" FontSize="30"  FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Column="5" Grid.Row="0"></Label>
+
+        <!--Button-->
+        <Button Content="+" Grid.Row="3" Margin="9" FontSize="30" Click="Button_Click"></Button>
+        <Button Content="-" Grid.Row="3" Grid.Column="1" Margin="9" FontSize="30" Click="Button_Click_1" ></Button>
+        <Button Content="*" Grid.Row="3" Margin="9" FontSize="30" Grid.Column="2" Click="Button_Click_2"></Button>
+        <Button Content="/" Grid.Row="3" Margin="9" Grid.Column="3" FontSize="30" Click="Button_Click_3"></Button>
+
+        <!--text-->
+        <TextBox x:Name="Input1" BorderThickness="2" Grid.Column="0" Grid.Row="1"  VerticalAlignment="Center" TextWrapping="Wrap" Height="50" Margin="7" Grid.ColumnSpan="4" ></TextBox>
+        <TextBox x:Name="Input2" BorderThickness="2" Grid.Column="0" Grid.Row="2"  VerticalAlignment="Center" TextWrapping="Wrap" Height="50" Margin="7" Grid.ColumnSpan="4" ></TextBox>
+        <TextBox x:Name="Ans" BorderThickness="2" Grid.Column="0" Grid.Row="4"  VerticalAlignment="Center" TextWrapping="Wrap" Height="50" Margin="7" Grid.ColumnSpan="4"></TextBox>
+        <ListBox x:Name="his" BorderThickness="2" Grid.Column="5" Grid.Row="1"  VerticalAlignment="Stretch"  Grid.RowSpan="4" Margin="7" ></ListBox>
+    </Grid>
+</Window>
