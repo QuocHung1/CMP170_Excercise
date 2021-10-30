@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TestStudentWS/1.0.0": {
+        "runtime": {
+          "TestStudentWS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestStudentWS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
